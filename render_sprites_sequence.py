@@ -15,8 +15,7 @@ ACTION_LIST = [
 OUTPUT_DIR = "c:\\tmp\\firdge-x4"
 
 def render_sprites():
-    dest_dir = os.path.join(os.path.abspath(OUTPUT_DIR), "v2-1")
-    normal_dir = os.path.join(os.path.abspath(OUTPUT_DIR), "v2_normal")
+    dest_dir = os.path.abspath(OUTPUT_DIR)
     
     s=bpy.context.scene
 
